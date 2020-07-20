@@ -14,5 +14,6 @@ namespace Consultarte.Features.Services.Input
         public string Description { get; set; }
         public decimal Price { get; set; }
         public long? TypeServiceId { get; set; }
+        public bool IsActive { get; set; }
     }
 }

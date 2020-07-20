@@ -20,6 +20,7 @@ namespace Consultarte.Features.FinalUsers
         public string Latitude { get; set; }
         public string Longitude { get; set; }
         public string CellphoneNumber { get; set; }
+        public bool IsActive { get; set; } = true;
         public long? CreatorUserId { get; set; }
         public DateTime CreationTime { get; set; } = DateTime.UtcNow;
         public long? LastModifierUserId { get; set; }

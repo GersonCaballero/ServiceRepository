@@ -24,5 +24,6 @@ namespace Consultarte.Features.FinalUsers.Input
         public string Latitude { get; set; }
         public string Longitude { get; set; }
         public string CellphoneNumber { get; set; }
+        public bool IsActive { get; set; }
     }
 }

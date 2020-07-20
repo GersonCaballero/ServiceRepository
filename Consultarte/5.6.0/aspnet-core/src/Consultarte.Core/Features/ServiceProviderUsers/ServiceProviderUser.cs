@@ -22,6 +22,7 @@ namespace Consultarte.Features.ServiceProviderUsers
         public string LocationGPS { get; set; }
         public string CellphoneNumber { get; set; }
         public int qualification { get; set; }
+        public bool IsActive { get; set; } = true;
         public long? TypeServiceId { get; set; }
         public TypeService TypeService { get; set; }
         public long? CreatorUserId { get; set; }

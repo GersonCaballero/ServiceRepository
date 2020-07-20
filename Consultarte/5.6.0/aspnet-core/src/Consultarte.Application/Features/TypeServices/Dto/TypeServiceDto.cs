@@ -4,12 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Consultarte.Features.TypeServices.Input
+namespace Consultarte.Features.TypeServices.Dto
 {
     [AutoMap(typeof(TypeService))]
-    public class TypeServiceUpdateInput : IEntityDto<long>
+    public class TypeServiceDto : EntityDto<long>
     {
-        public long Id { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
     }

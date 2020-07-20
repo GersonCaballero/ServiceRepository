@@ -2,7 +2,7 @@
 
 namespace Consultarte.Features.TypeServices.Input
 {
-    class TypeServiceGetAllInput : IPagedResultRequest
+    public class TypeServiceGetAllInput : IPagedResultRequest
     {
         public string Keyword { get; set; }
         public bool? IsActive { get; set; }

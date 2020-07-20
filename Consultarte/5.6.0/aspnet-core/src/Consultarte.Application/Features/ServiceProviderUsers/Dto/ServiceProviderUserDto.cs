@@ -1,12 +1,10 @@
-﻿using Abp.AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 
-namespace Consultarte.Features.ServiceProviderUsers.Input
+namespace Consultarte.Features.ServiceProviderUsers.Dto
 {
     [AutoMap(typeof(ServiceProviderUser))]
-    public class ServiceProviderUserCreateInput
+    public class ServiceProviderUserDto : EntityDto<long>
     {
         public string Name { get; set; }
         public string LastName { get; set; }
@@ -22,6 +20,5 @@ namespace Consultarte.Features.ServiceProviderUsers.Input
         public string CellphoneNumber { get; set; }
         public int qualification { get; set; }
         public long? TypeServiceId { get; set; }
-        public bool IsActive { get; set; }
     }
 }
