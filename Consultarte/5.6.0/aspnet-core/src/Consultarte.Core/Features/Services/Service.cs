@@ -21,5 +21,6 @@ namespace Consultarte.Features.Services
         public long? DeleterUserId { get; set; }
         public DateTime? DeletionTime { get; set; }
         public bool IsDeleted { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

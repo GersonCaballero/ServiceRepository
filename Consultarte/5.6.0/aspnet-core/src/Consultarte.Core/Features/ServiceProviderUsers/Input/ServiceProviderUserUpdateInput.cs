@@ -21,5 +21,6 @@ namespace Consultarte.Features.ServiceProviderUsers.Input
         public string CellphoneNumber { get; set; }
         public int qualification { get; set; }
         public long? TypeServiceId { get; set; }
+        public bool IsActive { get; set; }
     }
 }

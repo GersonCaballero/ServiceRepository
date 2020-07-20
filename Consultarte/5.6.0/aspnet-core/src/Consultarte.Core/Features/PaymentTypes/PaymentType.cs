@@ -13,6 +13,7 @@ namespace Consultarte.Features.PaymentTypes
         public string Description { get; set; }
         public long? ServiceProviderUserId { get; set; }
         public ServiceProviderUser ServiceProviderUser { get; set; }
+        public bool IsActive { get; set; } = true;
         public long? CreatorUserId { get; set; }
         public DateTime CreationTime { get; set; } = DateTime.UtcNow;
         public long? LastModifierUserId { get; set; }
