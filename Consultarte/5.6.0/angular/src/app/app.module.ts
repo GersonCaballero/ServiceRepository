@@ -41,6 +41,7 @@ import { SidebarMenuComponent } from './layout/sidebar-menu.component';
 import { CreateFinaluserComponent } from './FinalUser/create-finaluser/create-finaluser.component';
 import { EditFinaluserComponent } from './FinalUser/edit-finaluser/edit-finaluser.component';
 import { DeleteFinaluserComponent } from './FinalUser/delete-finaluser/delete-finaluser.component';
+import { ListTypeserviceComponent } from './TypeServices/list-typeservice/list-typeservice.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +74,8 @@ import { DeleteFinaluserComponent } from './FinalUser/delete-finaluser/delete-fi
     SidebarMenuComponent,
     CreateFinaluserComponent,
     EditFinaluserComponent,
-    DeleteFinaluserComponent
+    DeleteFinaluserComponent,
+    ListTypeserviceComponent
   ],
   imports: [
     CommonModule,
