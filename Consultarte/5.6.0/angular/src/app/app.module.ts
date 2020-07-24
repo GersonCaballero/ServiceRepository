@@ -42,6 +42,7 @@ import { CreateFinaluserComponent } from './FinalUser/create-finaluser/create-fi
 import { EditFinaluserComponent } from './FinalUser/edit-finaluser/edit-finaluser.component';
 import { DeleteFinaluserComponent } from './FinalUser/delete-finaluser/delete-finaluser.component';
 import { ListTypeserviceComponent } from './TypeServices/list-typeservice/list-typeservice.component';
+import { CreateTypeserviceComponent } from './TypeServices/create-typeservice/create-typeservice.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { ListTypeserviceComponent } from './TypeServices/list-typeservice/list-t
     CreateFinaluserComponent,
     EditFinaluserComponent,
     DeleteFinaluserComponent,
-    ListTypeserviceComponent
+    ListTypeserviceComponent,
+    CreateTypeserviceComponent
   ],
   imports: [
     CommonModule,
