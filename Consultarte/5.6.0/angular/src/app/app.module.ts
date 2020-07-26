@@ -43,6 +43,7 @@ import { EditFinaluserComponent } from './FinalUser/edit-finaluser/edit-finaluse
 import { DeleteFinaluserComponent } from './FinalUser/delete-finaluser/delete-finaluser.component';
 import { ListTypeserviceComponent } from './TypeServices/list-typeservice/list-typeservice.component';
 import { CreateTypeserviceComponent } from './TypeServices/create-typeservice/create-typeservice.component';
+import { EditTypeserviceComponent } from './edit-typeservice/edit-typeservice.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { CreateTypeserviceComponent } from './TypeServices/create-typeservice/cr
     EditFinaluserComponent,
     DeleteFinaluserComponent,
     ListTypeserviceComponent,
-    CreateTypeserviceComponent
+    CreateTypeserviceComponent,
+    EditTypeserviceComponent
   ],
   imports: [
     CommonModule,
