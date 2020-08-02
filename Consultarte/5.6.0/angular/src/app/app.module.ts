@@ -45,6 +45,7 @@ import { ListTypeserviceComponent } from './TypeServices/list-typeservice/list-t
 import { CreateTypeserviceComponent } from './TypeServices/create-typeservice/create-typeservice.component';
 import { EditTypeserviceComponent } from './edit-typeservice/edit-typeservice.component';
 import { ListServicesComponent } from './services/list-services/list-services.component';
+import { CreateServicesComponent } from './services/create-services/create-services.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { ListServicesComponent } from './services/list-services/list-services.co
     ListTypeserviceComponent,
     CreateTypeserviceComponent,
     EditTypeserviceComponent,
-    ListServicesComponent
+    ListServicesComponent,
+    CreateServicesComponent
   ],
   imports: [
     CommonModule,
