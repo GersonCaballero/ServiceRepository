@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EditTypeserviceComponent } from './edit-typeservice.component';
+import { ListPaymenttypeComponent } from './list-paymenttype.component';
 
-describe('EditTypeserviceComponent', () => {
-  let component: EditTypeserviceComponent;
-  let fixture: ComponentFixture<EditTypeserviceComponent>;
+describe('ListPaymenttypeComponent', () => {
+  let component: ListPaymenttypeComponent;
+  let fixture: ComponentFixture<ListPaymenttypeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EditTypeserviceComponent ]
+      declarations: [ ListPaymenttypeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EditTypeserviceComponent);
+    fixture = TestBed.createComponent(ListPaymenttypeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
